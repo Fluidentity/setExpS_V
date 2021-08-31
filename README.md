@@ -3,7 +3,8 @@ Alt  for funkySetFields-swak4Foam with easy setup for setting initial Scalar or 
 ./setExpS ./setExpV
 
 
-[INTRODUCTION]
+INTRODUCTION
+
 C++ program to set initial fields of an OpenFOAM scalar or 
 vector using a math-expression, taking co-ordinates as 
 parameter. The expressions are based off of exprtk library 
@@ -21,7 +22,7 @@ already. Minimum effort on getting it to work .
 Simple Scalar Vector Formulation. 
 Make good use of this quick fix. 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 An exemplary testCase folder for scalarTransportFoam can 
 be found in the repository, with custom ./Allclean & ./Allrun 
