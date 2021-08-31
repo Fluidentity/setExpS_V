@@ -28,7 +28,8 @@ be found in the repository, with custom ./Allclean & ./Allrun
 scripts. 
 *Check below for more info*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-------------------------------------------------------------
 
 
 ./setExpS modifies scalar field using expressionS file both 
@@ -44,9 +45,10 @@ executables require C file. It can be run non-destructively
 with:
 postProcess -func writeCellCentres 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<Executaion>
+-------------------------------------------------------------
+
+Executaion
 ./setExpS & ./setExpV modifies "Field" file to "Field.org"  
 file & sets values w.r.t math expression, provided in  
 expressionS & expressionV file. 
@@ -54,14 +56,15 @@ expressionS & expressionV file.
 ./setExpS asks to choose Scalar.
 ./setExpV asks to choose Vector.  
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-------------------------------------------------------------
 
 A modified ./Allrun & ./Allclean script is provided with  
 the test case. This takes care of writing cell coordinates  
 with writeCellCentres & modifies 0 folder to it's original  
 form. 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 Source File setExpS.cpp, setExpV.cpp & header file 
 exprtk.hpp files are provided in the repository for further 
