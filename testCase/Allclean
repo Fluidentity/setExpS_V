@@ -1,0 +1,30 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+cd 0/
+if [ -f "T.org" ];
+then
+	rm T 
+	mv T.org T
+fi
+if [ -f "U.org" ];
+then
+	rm U 
+	mv U.org U
+fi
+
+if [ -f "C" ];
+then
+        rm C Cx Cy Cz 
+fi
+
+cd ../
+
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Source tutorial clean functions
+. $WM_PROJECT_DIR/bin/tools/CleanFunctions
+
+cleanCase
+
+#------------------------------------------------------------------------------
